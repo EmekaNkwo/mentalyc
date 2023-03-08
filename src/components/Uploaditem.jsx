@@ -17,19 +17,6 @@ import ProgressBarWithLabel from "../shared/components/ProgressBarWithLabel";
 
 function Uploaditem({ processingTasks, setProcessingTasks }) {
   useEffect(() => {
-    // const timer = setInterval(() => {
-    //   setProgressRate((prevProgressRate) =>
-    //     prevProgressRate >= 100 ? 10 : prevProgressRate + 10
-    //   );
-    // }, 800);
-
-    // if (progressRate === 100) {
-    //   setUploaded(true);
-    // }
-    // return () => {
-    //   clearInterval(timer);
-    // };
-
     const intervalId = setInterval(() => {
       setProcessingTasks((prevTasks) =>
         prevTasks
