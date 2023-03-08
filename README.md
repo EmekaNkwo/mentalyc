@@ -1,6 +1,6 @@
 # MENTALYC ASSESSMENT TASK
 
-## Overview [Live Demo](https://emekankwo-lawpavilion.netlify.app/)
+## Overview [Live Demo](https://mentalyc-nkwo.netlify.app/)
 
 This is a responsive file upload application that has a progress bar bar for tracking the process state of the current file.
 This application was built using React, Material UI, and React Hooks
